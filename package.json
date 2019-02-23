@@ -1,0 +1,21 @@
+{
+  "name": "firehose-server",
+  "version": "1.0.0",
+  "description": "Firehose server component",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cluster": "^0.7.7",
+    "eosjs": "^20.0.0-beta3",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "node-fetch": "^2.3.0",
+    "text-encoding": "^0.7.0",
+    "websocket": "^1.0.28"
+  }
+}
